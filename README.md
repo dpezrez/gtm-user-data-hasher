@@ -1,8 +1,8 @@
 # SHA-256 Email Address & Phone Number Hasher (GTM Tag Template)
 
-**Built by [Daniel Perry-Reed](https://datatovalue.com/) @ Data to Value**
+This Google Tag Manager (GTM) **Custom Template** allows you to normalise and hash email addresses and phone numbers using SHA-256 and push the results into the `dataLayer`. It supports normalization steps such as trimming, lowercasing, format cleanup, and domain filtering.
 
-This custom GTM tag template allows you to normalize and hash email addresses and phone numbers using SHA-256 and push the results into the `dataLayer`. It supports normalization steps such as trimming, lowercasing, format cleanup, and domain filtering.
+Built by [Daniel Perry-Reed](https://www.linkedin.com/in/danielperryreed/) – marketing analytics specialist at [Data to Value](https://www.datatovalue.com).
 
 ---
 
@@ -109,6 +109,12 @@ Included in the container is:
 
 ---
 
+## 🟦 About Data to Value
+
+Built and maintained by myself and the team at [Data to Value](https://www.datatovalue.com) — your data activation partner helping marketing teams transform data into predictable revenue and growth.
+
+---
+
 ## 📄 License
 
-Apache-2.0. See [LICENSE](./LICENSE).
+MIT
