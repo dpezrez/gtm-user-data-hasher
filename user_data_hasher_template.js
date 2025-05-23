@@ -170,7 +170,7 @@ function done() {
 
   if (data.includeUserData && (data.includeUnhashedInUserData || data.includeHashedInUserData)) {
     var user_data = {};
-    if (data.includeUnhashedInUserData && emailValid) user_data.email_address = email;
+    if (data.includeUnhashedInUserData && emailValid) user_data.email = email;
     if (data.includeHashedInUserData && emailValid) user_data.sha256_email_address = emailHash;
     if (data.includeUnhashedInUserData && phoneValid) user_data.phone_number = phone;
     if (data.includeHashedInUserData && phoneValid) user_data.sha256_phone_number = phoneHash;
